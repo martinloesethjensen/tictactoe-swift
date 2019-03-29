@@ -10,10 +10,10 @@
 		494B2B8A224E2C1E0003D6AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494B2B89224E2C1E0003D6AD /* AppDelegate.swift */; };
 		494B2B8C224E2C1E0003D6AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494B2B8B224E2C1E0003D6AD /* ViewController.swift */; };
 		494B2B8F224E2C1E0003D6AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 494B2B8D224E2C1E0003D6AD /* Main.storyboard */; };
-		494B2B91224E2C1E0003D6AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 494B2B90224E2C1E0003D6AD /* Assets.xcassets */; };
 		494B2B94224E2C1E0003D6AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 494B2B92224E2C1E0003D6AD /* LaunchScreen.storyboard */; };
 		494B2B9F224E2C1E0003D6AD /* TicTacToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494B2B9E224E2C1E0003D6AD /* TicTacToeTests.swift */; };
 		494B2BAA224E2C1E0003D6AD /* TicTacToeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494B2BA9224E2C1E0003D6AD /* TicTacToeUITests.swift */; };
+		494B2BC1224E45290003D6AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 494B2BC0224E45290003D6AD /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		494B2B89224E2C1E0003D6AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		494B2B8B224E2C1E0003D6AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		494B2B8E224E2C1E0003D6AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		494B2B90224E2C1E0003D6AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		494B2B93224E2C1E0003D6AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		494B2B95224E2C1E0003D6AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		494B2B9A224E2C1E0003D6AD /* TicTacToeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTacToeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +46,7 @@
 		494B2BA5224E2C1E0003D6AD /* TicTacToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTacToeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		494B2BA9224E2C1E0003D6AD /* TicTacToeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeUITests.swift; sourceTree = "<group>"; };
 		494B2BAB224E2C1E0003D6AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		494B2BC0224E45290003D6AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +100,7 @@
 				494B2B89224E2C1E0003D6AD /* AppDelegate.swift */,
 				494B2B8B224E2C1E0003D6AD /* ViewController.swift */,
 				494B2B8D224E2C1E0003D6AD /* Main.storyboard */,
-				494B2B90224E2C1E0003D6AD /* Assets.xcassets */,
+				494B2BC0224E45290003D6AD /* Assets.xcassets */,
 				494B2B92224E2C1E0003D6AD /* LaunchScreen.storyboard */,
 				494B2B95224E2C1E0003D6AD /* Info.plist */,
 			);
@@ -230,7 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				494B2B94224E2C1E0003D6AD /* LaunchScreen.storyboard in Resources */,
-				494B2B91224E2C1E0003D6AD /* Assets.xcassets in Resources */,
+				494B2BC1224E45290003D6AD /* Assets.xcassets in Resources */,
 				494B2B8F224E2C1E0003D6AD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
