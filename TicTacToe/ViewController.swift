@@ -58,12 +58,11 @@ class ViewController: UIViewController {
     }
 
     @IBAction func buttonClicked(_ sender: UIButton) {
-        count += 1
-
         print("Button pressed: \(sender.tag)")
         print("Activeplayer: \(activePlayer)")
 
         if (gameState[sender.tag - 1] == 0 && gameIsActive) {
+            count += 1 // for checking draw
             gameState[sender.tag - 1] = activePlayer
 
             if (activePlayer == 1) {
